@@ -1,38 +1,85 @@
 .App {
   text-align: center;
+
+  max-width: 900px;
+  width: 80%;
+  min-width: 300px;
+
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2:first-child {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  margin-top: 40px;
+
+  font-family: 'Open Sans', sans-serif;
+  color: #95D5B2;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.label {
+  font-family: 'Open Sans', sans-serif;
+  color: #95D5B2;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.label-featured {
+  font-family: 'Average Sans', sans-serif;
+  color: #39FF14;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.logo-xc {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+
+  background-image: url('../public/logo-xc.png');
+  margin: 10px auto;
+}
+
+.currencySelecters-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.currencySelecter {
+  width: 40%;
+  min-width: 280px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.chart-container {
+  max-width: 800px;
+  width: 80%;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  padding: 15px;
+
+  border: 2px solid #D8F3DC;
+  border-radius: 8px;
+}
+
+.chart {
+  margin: 0 auto;
+}
+
+@media (min-width: 740px) {
+  .legend {
+    display: none;
   }
 }

@@ -1,0 +1,98 @@
+.history-container {    
+    max-width: 800px;
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+    border: 2px solid #D8F3DC;
+    border-radius: 8px;
+}
+
+.history-container table {
+    width: calc(100% - 30px);
+    min-width: 230px;
+    margin: 5px auto;
+    color: #D8F3DC;
+
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.history-container tr {
+    height: 20px;
+}
+
+.history-container td:first-child {
+    width: 60%;
+}
+
+.history-container td:last-child {
+    width: 40%;
+}
+
+.history-container tr:hover {
+    color: #39FF14;
+    font-weight: bold;
+}
+
+.history-container th {
+    font-family: 'Open Sans', sans-serif;
+    color: #95D5B2;
+    background-color: #1B4332;
+
+    padding: 6px 0;
+}
+
+.history-container td {
+    font-family: 'Average Sans', sans-serif;
+    padding: 6px 0;
+}
+
+.history-container table tr th {
+    border-bottom: 2px solid #1B4332;
+    border-top: 2px solid #1B4332;
+}
+
+.history-container table tr th:first-child {
+    border-left: 2px solid #1B4332;
+}
+
+.history-container table tr th:last-child {
+    border-right: 2px solid #1B4332;
+}
+
+.history-container table tr td {
+    border-bottom: 2px solid #1B4332;
+}
+
+.history-container table tr td:first-child {
+    border-left: 2px solid #1B4332;
+}
+
+.history-container table tr td:last-child {
+    border-right: 2px solid #1B4332;
+}
+
+.history-container td:first-child::first-letter {
+    text-transform: uppercase;
+}
+
+
+.history-container table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+.history-container table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+.history-container table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+.history-container table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}

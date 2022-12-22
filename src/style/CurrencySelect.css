@@ -1,0 +1,49 @@
+.currencySelecter-select {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+
+    font-family: 'Average Sans', sans-serif;
+    font-size: 16px;
+
+    color: #39FF14;
+
+    background-color: transparent;
+
+    border: 2px solid #D8F3DC;
+    border-radius: 8px;
+
+    text-overflow: ellipsis;
+
+    margin-bottom: 20px;
+
+}
+
+.currencySelecter:last-child .currencySelecter-select {
+    margin-bottom: 0;
+}
+
+.currencySelecter-select:focus {
+    border: 2px solid #D8F3DC;
+    border-radius: 8px;
+}
+
+.currencySelecter-select option {
+    font-family: 'Average Sans', sans-serif;
+    font-size: 16px;
+
+    color: #D8F3DC;
+
+    background-color: #1B4332;
+}
+
+.buttons button {
+    height: 16px;
+    width: 16px;
+}
+
+.buttons i {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}

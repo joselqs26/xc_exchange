@@ -1,0 +1,20 @@
+.infoBase-container {
+    max-width: 800px;
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+    border: 2px solid #D8F3DC;
+    border-radius: 8px;
+}
+
+.infoBase-container :first-child{
+    padding: 0 10px;
+}
+
+.infoBase-container .label-featured {
+    font-size: min( 48px , 2em) ;
+}
