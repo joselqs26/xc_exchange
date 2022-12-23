@@ -22,9 +22,6 @@ const useHistory = ( baseCurrency , exCurrency ) => {
                 setHistory(cleanResult)
             })
             .catch(error => console.log('error', error));
-
-        console.log('effect');
-        console.log(history);
     }, [baseCurrency , exCurrency]);
 
     return history;

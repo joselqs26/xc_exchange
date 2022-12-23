@@ -8,8 +8,6 @@ const useSymbols = () => {
             .then(response => response.json())
             .then(result => setSymbols(result.symbols))
             .catch(error => console.log('error', error));
-
-        console.log('effect');
     }, []);
 
     return symbols;

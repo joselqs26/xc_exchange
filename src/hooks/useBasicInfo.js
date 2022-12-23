@@ -14,9 +14,6 @@ const useBasicInfo = ( baseCurrency , exCurrency ) => {
             .then(response => response.json())
             .then(result => setBasicInfo(result.rates[baseCurrency]))
             .catch(error => console.log('error', error));
-
-        console.log('effect');
-        console.log(basicInfo);
     }, [baseCurrency , exCurrency]);
 
     return basicInfo;

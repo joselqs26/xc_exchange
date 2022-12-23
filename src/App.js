@@ -5,6 +5,7 @@ import { BasicInfo } from './components/BasicInfo';
 import { Converter } from './components/Converter';
 import { History } from './components/History';
 import { Chart } from './components/Chart';
+import { Footer } from './components/Footer';
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
       <Converter baseCurrency={baseCurrency} exCurrency={exCurrency} />
       <History baseCurrency={baseCurrency} exCurrency={exCurrency} />
       <Chart baseCurrency={baseCurrency} exCurrency={exCurrency} />
+      <Footer />
     </div>
   );
 }
